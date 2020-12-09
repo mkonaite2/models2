@@ -1,0 +1,15 @@
+ssh-keygen -t rsa -b 4096 -C "mm.konaite@gmail.com"
+
+Enter
+
+y
+
+something
+something
+
+eval $(ssh-agent -s)
+
+ssh-add ~/.ssh/id_rsa
+
+something
+
