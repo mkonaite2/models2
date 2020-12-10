@@ -937,7 +937,7 @@ class ActiveVisionDatasetEnv(task_env.TaskEnv):
                               self._cur_graph.id_to_index[image_id],
                               super_source)
     except:
-      print 'path not found, image_id = ', self._cur_world, self._cur_image_id
+      print('path not found, image_id = ', self._cur_world, self._cur_image_id)
       raise
     return path[:-1]
 
